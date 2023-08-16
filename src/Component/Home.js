@@ -14,7 +14,7 @@ function Home() {
     <div className="home-first-card-containeer">
       <div className="left-side">
         {data
-          .filter((item) => item.id === 35)
+          .filter((item) => item.id === 59)
           .map((data) => {
             return (
               <>
@@ -123,7 +123,7 @@ function Home() {
         </div>
         <div className="latest-one">
           {data
-            .filter((item) => item.id === 31)
+            .filter((item) => item.id === 99)
             .map((data) => {
               return (
                 <>
@@ -184,7 +184,7 @@ function Home() {
             <hr className="Articles-hr" />
 
             {data
-              .filter((item) => item.id === 52)
+              .filter((item) => item.id === 99)
               .map((data) => {
                 return (
                   <>
