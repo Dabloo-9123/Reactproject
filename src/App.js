@@ -16,6 +16,7 @@ function App() {
   return (
   <>
 <h1 className='siren'><span className='the'>The</span> Siren</h1>
+<button className='toggle'>X</button>
 <info.Provider value={Data}>
    <BrowserRouter >
    <Linkcompo></Linkcompo>

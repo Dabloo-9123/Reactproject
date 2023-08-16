@@ -145,7 +145,7 @@ height: 15%;
 }
 .latest-one{
 
-    height: 390px;
+    /* height: 390px; */
     width: 32%;
     box-sizing: border-box;
     
@@ -188,23 +188,53 @@ height: 15%;
     align-items: center;
     justify-content: center;
     animation-name: anim;
-    animation-duration: 4s;
+    animation-duration: 10s;
+    margin-top: 400px;
+}
+.advatige1{
+    background-color: rgb(41, 41, 95) ;
+    border: solid 1px pink;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation-name: anim;
+    animation-duration: 10s;
+    /* margin-top: 400px; */
 }
 @keyframes anim {
     0%{
         background-color: red;
     }
-    25%{
+    10%{
         background-color: yellow;
     }
-    50%{
+    20%{
         background-color: lightgreen;
     }
-    75%{
+    30%{
         background-color: lightseagreen;
     }
-    100%{
+    40%{
         background-color: lightskyblue;
+    }
+    50%{
+        background-color: chocolate;
+    }
+    60%{
+        background-color: crimson;
+    }
+    70%{
+        background-color: darkmagenta;
+    }
+    80%{
+        background-color: darkolivegreen;
+    }
+    90%{
+        background-color: dodgerblue;
+    }
+    100%{
+        background-color: orangered;
     }
     
 }
@@ -256,6 +286,7 @@ height: 15%;
     width: 260px;
     text-align: left;
     height: 590px;
+    margin-left: 40px;
 }
 .top-post-hr{
     width: 40px;
@@ -375,6 +406,7 @@ margin-top: 250px;
         padding: 2px 1%;
         width: 90%;
         overflow-x: hidden;
+        margin: auto;
    
     }
     .link{
@@ -425,7 +457,7 @@ margin-top: 250px;
     }
     .latest-one{
       
-        height: 390px;
+        /* height: 390px; */
         width: 100%;
         margin: 10px;
         box-sizing: border-box;
@@ -523,6 +555,12 @@ margin-top: 250px;
 h3{
     color: black;
     text-decoration: none;
+    /* text-overflow:ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical; */
 }
 h5{
     color: black;

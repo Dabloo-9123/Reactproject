@@ -266,7 +266,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="advatige">
+        <div className="advatige1">
           <h2 className="advatige-text">advertistment</h2>
         </div>
       </div>

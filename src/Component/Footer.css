@@ -8,9 +8,9 @@
     display: flex;
     width: 98.8%;
     position: relative;
-    z-index: 7;
+    z-index: 5;
     margin-left: 20px;
-    background-color: teal;
+    background-color: yellowgreen ;
     color: white;
 }
 
@@ -113,7 +113,7 @@ footerLogo {
         display: flex;
         width: 99%;
         position: relative;
-        z-index: 7;
+        z-index: 3;
         margin-left: 20px;
         /* background-color: black; */
         flex-direction: column;
@@ -133,7 +133,9 @@ footerLogo {
     .footerContainner {
         margin: 2px;
         
-        margin-top: 7600px;
+        /* margin-top: 1100px; */
+        /* position:relative;
+        bottom: 30px; */
     }
 .blo-des{
     font-size: 15px;
