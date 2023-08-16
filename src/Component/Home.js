@@ -14,7 +14,7 @@ function Home() {
     <div className="home-first-card-containeer">
       <div className="left-side">
         {data
-          .filter((item) => item.id === 59)
+          .filter((item) => item.id === 99)
           .map((data) => {
             return (
               <>
