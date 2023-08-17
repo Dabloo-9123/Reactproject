@@ -15,8 +15,7 @@ export const info=createContext(Data)
 function App() {
   return (
   <>
-<h1 className='siren'><span className='the'>The</span> Siren</h1>
-<button className='toggle'>X</button>
+<h1 className='siren'><div className='the'>The</div><div className='siren1'> Siren</div></h1>
 <info.Provider value={Data}>
    <BrowserRouter >
    <Linkcompo></Linkcompo>

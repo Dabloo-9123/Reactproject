@@ -14,7 +14,7 @@ function Footer() {
                 <h2 className='about'>AboutUs</h2>
                 <hr className='footerHr' />
                 <span className='blo-des'>This  is a simple blog app made by Dabloo kumar Yadav
-                    in this blog i am trying to show abouts my favorites foods palces etc
+                    in this blog app the latest information about today's generation.
                 </span>
                 <div className='displayFt'>
                     <img className='footerLogo' alt='not found' src={facebook} height={50} width={50} />
