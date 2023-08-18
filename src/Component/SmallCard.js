@@ -1,6 +1,6 @@
 import React from 'react'
 import instagram1 from "../logo/instagram.jpg";
-import persion from "../logo/man.jpg";
+import persion from "../logo/man.png";
 import youtube from "../logo/youtube.jpg";
 import twitter from "../logo/twitter.jpg";
 import facebbok from "../logo/facebook.jpg";

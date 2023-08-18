@@ -1,5 +1,5 @@
 import React from 'react'
-import persion from "../logo/man.jpg"
+import persion from "../logo/man.png"
 const Writer = () => {
   return (
     <div className='smallCard-containeer'>
