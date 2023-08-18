@@ -2,13 +2,14 @@ import React, { useContext } from 'react'
 import { info } from '../App'
 import { NavLink } from 'react-router-dom'
 import './style.css'
-import Footer from './Footer'
+// import Footer from './Footer'
+import Header from './header'
 
 function Fitness() {
     const data=useContext(info)
   return (
     <>
-        <div className='Food-parent'>
+    <Header></Header>        <div className='Food-parent'>
         <div className='Food-containeer'>
           <h3 className="sub-title latest-food11">Fitness</h3>
           <hr className="sub-heading-hr latest-food11" />
@@ -180,7 +181,7 @@ function Fitness() {
 
       </div>
       <div className='BiharFooter'>
-        <Footer />
+        {/* <Footer /> */}
 
       </div>
         

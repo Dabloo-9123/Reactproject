@@ -1,6 +1,6 @@
 import React ,{useState}from 'react'
 import { useContext } from "react";
-import Footer from './Footer';
+// import Footer from './Footer';
 import './innerpage.css'
 import { NavLink, useNavigate } from "react-router-dom";
 import {  info } from '../App';
@@ -9,6 +9,7 @@ import SmallCard from './SmallCard';
 import Writer from './Writer';
 import clapping from "../logo/clapping.jpg";
 import persion from "../logo/man.jpg";
+// import Header from './header';
 
 
 function Innerpage() {
@@ -55,6 +56,7 @@ function Innerpage() {
       }
   return (
     <div>
+      {/* <Header></Header> */}
        <div className="latest-one details-parent ">
         {data
           .filter((item) => item.id === url1)
@@ -173,9 +175,9 @@ function Innerpage() {
           Go Back
         </button>
       </div>
-      <div className="footer-parent">
+      {/* <div className="footer-parent">
         <Footer />
-      </div>
+      </div> */}
     </div>
   )
 }

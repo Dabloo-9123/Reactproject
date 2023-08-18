@@ -89,7 +89,7 @@ margin: 0px;
   
     height: 25%;
     box-sizing: border-box;
-    margin-top: 4px;
+    margin-top: 100px;
     padding: 120px 7.5%;
     padding-bottom: 0px;
    
@@ -127,7 +127,7 @@ height: 15%;
     margin-left: 15%;
     font-size: 24px;
     font-weight: 900;
-    /* margin-top: 300px; */
+    margin-top: 250px;
 }
 .sub-heading-hr{
     height: 3px;
@@ -182,7 +182,7 @@ height: 15%;
 }
 .advatige{
     background-color: rgb(41, 41, 95) ;
-    border: solid 1px pink;
+    /* border: solid 10px pink; */
     display: flex;
     text-align: center;
     align-items: center;
@@ -190,6 +190,8 @@ height: 15%;
     animation-name: anim;
     animation-duration: 10s;
     margin-top: 400px;
+    margin-left: -100px;
+
 }
 .advatige1{
     background-color: rgb(41, 41, 95) ;
@@ -265,19 +267,24 @@ height: 15%;
     box-sizing: border-box;
 }
 .top-post{
-    height: 600px;
-    width: 100px;
+    /* height: 600px; */
+    /* width: 100px; */
     box-sizing: border-box;
-    width: 100%;
-    padding: 28px 15%;
+    width: 80%;
+    margin: auto;
+    /* padding: 28px 15%; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10px;
+    /* border: solid 5px green; */
+    margin-top: 100px;
+
 }
 .top-post-card1{
-    height: 600px;
-    padding-top: 240px;
+    /* height: 600px; */
+    /* padding-top: 240px; */
     width: 700px;
+    /* border: solid 5px red; */
 }
 .top-post-details-parent{
 
@@ -285,8 +292,12 @@ height: 15%;
   
     width: 260px;
     text-align: left;
-    height: 590px;
-    margin-left: 40px;
+    height: auto;
+    /* border: solid 6px black; */
+    padding-top: 0px;
+    /* margin-left: 40px; */
+    /* margin-left: -50px; */
+    /* margin-top: 160px; */
 }
 .top-post-hr{
     width: 40px;
@@ -319,19 +330,22 @@ padding-right: 20px;
 }
 .top-posrt-sub-con1{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
     box-sizing: border-box;
-    height: 100px;
+    /* border: solid 1px black; */
+    /* height: 100px; */
 }
+
 .top-post-sub1-card1{
     height: 100px;
-    width: 80px;
+    width: 100px;
 }
 .top-post-title1{
-    text-align: left;
+    /* text-align: left; */
     
-    margin-left: -1px;
+    /* margin-left: -1px; */
+    margin-top: 2px;
 }
 .top-post-titlefood{
     text-align: left;
@@ -357,10 +371,10 @@ width: 320%;
 }
 .top-post-divider3{
     width: 100%;
-    margin-top: -260px;
+    /* margin-top: -260px; */
 }
 .top-post-divider2{
-    margin-top: 15px;
+    /* margin-top: 20px; */
     margin-bottom: 15px;
 }
 .top-post-divider3{
@@ -412,6 +426,9 @@ margin-top: 250px;
     .link{
         flex-direction: column;
         align-items: center;
+    }
+    .headerweb{
+        display: none;
     }
     .text{
         font-size: 7vw;
@@ -490,7 +507,7 @@ margin-top: 250px;
     }
     .sub-title{
         margin-left: 50px;
-        /* margin-top: 100px; */
+        margin-top: 400px;
     }.sub-heading-hr{
         margin-left: 50px;
     }
@@ -571,11 +588,13 @@ NavLink{
 .Food-parent{
     box-sizing: border-box;
     width: 100%;
+    margin: auto;
     margin-top: 10px;
-    padding: 28px 15%;
+    /* padding: 28px 15%; */
     height: 500px;
 
-    padding-left: 100px;
+    /* padding-left: 10%; */
+    
 
 display: flex;
 justify-content: space-between;
@@ -652,6 +671,7 @@ justify-content: space-between;
     padding: 28px 15%;
     display: flex;
     box-sizing: border-box;
+    margin-top: 100px;
 
 }
 .latest-food1{
@@ -666,8 +686,23 @@ margin: 0px;
 .advatige-Food{
  
     height: 590px;
- 
+ /* margin-left: -150px; */
     border: 2px solid red;
+    margin-left: 50px;
+    /* margin-right: 80px; */
+}
+.top-post-details-parent {
+    box-sizing: border-box;
+    /* width: 260px; */
+    text-align: left;
+    height: auto;
+    /* border: solid 6px black; */
+    /* padding-top: 20px; */
+    /* margin-left: 40px; */
+    /* margin-left: -100px; */
+    margin-top: 280px;
+    /* border: solid 1px black; */
+    margin-right: 200px;
 }
 
 @media (min-width:270px) and (max-width:580px) {
@@ -696,7 +731,8 @@ margin: 0px;
 }
 .Food-containeer{
         width: 350px;
-      margin-left: -100px;
+        margin-top: 50px;
+      /* margin-left: -100px; */
       margin-top: -50px;
         padding: 0px;
        margin-bottom: 50px;
@@ -718,10 +754,27 @@ margin: 0px;
      .bihar-top{
   margin-top: 4000px;
     margin-left: -50px;
+    border: solid 1px red;
      }    
       .foodfooter{
         margin-top: 10322px;
       }
+      .home-first-card-containeer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-top: 4px;
+        padding: 2px 1%;
+        width: 90%;
+        overflow-x: hidden;
+        margin: auto;
+        margin-top: 250px;
+    }
+    .articles-one {
+        margin: 2px;
+        margin-top: 80px;
+    }
 }
 .home1{
     text-decoration: none;

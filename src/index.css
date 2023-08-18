@@ -14,17 +14,30 @@ code {
 .navbar{
   width: 80%;
   display: flex;
+  /* border: solid 1px black; */
+  background-color:rgb(252, 252, 189);
+height: 100px;
   justify-content: space-between;
   margin: auto;
   font-size: 2rem;
+  /* margin-top: 150px; */
+  /* background-color: aqua; */
   /* background-color: orange; */
+  position: fixed;
+  top :100px;
+  left: 10%;
 
+}
+.humber{
+  display: none;
+  width: 40px;
+  height: 40px;
 }
 
 .link1{
   text-decoration: none;
   font-size:2rem;
-background-color: rgb(250, 250, 131);
+/* background-color: rgb(250, 250, 131); */
 text-align: center;
 border-radius: 5px;
 }
@@ -32,16 +45,31 @@ border-radius: 5px;
   color: red;
   
 }
-.the{
+.the1{
   color: red;
   transform: rotate(-90deg);
-  font-size: 70px;
+  font-size: 40px;
 box-sizing: border-box;
   display: inline-block;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   /* background-color: black; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin: auto;
 
+}
+.the{
+  background-color:rgb(252, 252, 189);
+  /* border: solid 1px black; */
+  display: flex;
+  align-items: center;
+  
+  position: fixed; 
+  top: 0px;
+  left: 10%;
+  height: 110px;
+  width: 80%;
+  margin: auto;
+  /* margin-left:10%; */
 }
 body{
   background-color:rgb(252, 252, 189);
@@ -49,7 +77,9 @@ body{
 }
 .siren{
   text-align: center;
-  font-size: 6rem;
+  font-size: 5rem;
+  /* border: solid 1px blue; */
+  margin: auto;
   /* text-decoration: underline; */
   /* border-bottom: 1px solid red; */
   
@@ -57,27 +87,78 @@ body{
 .siren1{
 /* text-decoration: underline; */
 display: inline;
-border-bottom: solid 10px red;
+/* border: solid 1px black; */
+/* border-bottom: solid 10px red; */
 box-sizing: border-box;
+font-size: 5rem;
+/* margin-top: -50%; */
+
 /* background-color: red; */
 
 }
-.toggle{
-  width: 30px;
-  height: 30px;
+/* hr{
+  margin-bottom: 100px;
+} */
+/* .toggle{
+  width: 40px;
+  height: 40px;
   font-weight: bolder;
-  background-color: green;
+  
   text-align: center;
-  border-radius: 50%;
+  border-radius: 5px;
   display: none;
   position: absolute;
-  right: 15%;
-  top: 100px;
+  right: 10%;
+  top: 35px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+.parent_nav{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  /* border: solid 1px black; */
 }
+.nav1{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  /* border: solid 1px black; */
+
+}
+.nav2{
+  width: 20%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  /* border: solid 1px black; */
+
+}
+.hamburgerbut{
+  width: 100px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media screen and (min-width:300px) and (max-width:600px){
   .navbar{
     flex-direction: column;
     display: flex;
+  }
+  .hummenu{
+    height: 40px;
+    width: 40px;
+    /* margin-top: -30px; */
+    /* margin-left:120%; */
+    position: fixed;
+    left: 75%;
+    top: 5%;
   }
   .siren{
     
@@ -86,24 +167,36 @@ box-sizing: border-box;
     text-align: left;
     margin-left: 5%;
   }
-  .toggle{
-    display: block;
-  }
-  .toggle:hover + .navbar{
-    display: none;
-  }
-  .navbar{
-    display: flex;
-  }
-  .toggle:double-button + .navbar{
-    display: flex;
-  }
-  .the{
+ .humber{
+  display: block;
+ }
+ 
+ .navbar {
+  display: flex;
+  position: relative;
+  top: 150px;
+  left: -10px;
+  z-index: -10;
+}
+  .the {
+  background-color:rgb(252, 252, 189);
+  
+    position: fixed;
+    top: 0px;
+  left: 0%;
+
+    height: 110px;
+    width: 100%;
+    margin-left: -2%;
+}
+  
+  .the1{
     font-size: 20px;
   }
   .siren1{
     border-bottom: solid 5px red;
     font-size: 35px;
   }
+ 
   
 }

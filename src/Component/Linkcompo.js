@@ -4,9 +4,8 @@ import { Link } from 'react-router-dom'
 function Linkcompo() {
   return (
     <>
-<button className='toggle'>X</button>
 
-    <div className='navbar'>
+    <div className='navbar' id='nav'>
         <Link to='/' className='link1'>Home</Link>
         <Link to='/bollywood' className='link1'>Bollywood</Link>
         <Link to='/hollywood' className='link1'>Hollywood</Link>
@@ -15,6 +14,8 @@ function Linkcompo() {
         <Link to='/food' className='link1'>Food</Link>
         
     </div>
+   <hr></hr>
+
     </>
   )
 }

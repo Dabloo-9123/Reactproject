@@ -3,6 +3,7 @@ import { info } from '../App';
 import { NavLink } from 'react-router-dom';
 import './style.css'
 import Footer from './Footer';
+import Header from './header';
 
 function Home() {
     const data=useContext(info)
@@ -10,7 +11,7 @@ function Home() {
   return (
     
     <div className="home-super-parent">
-    {/* <Header /> */}
+    <Header></Header>
     <div className="home-first-card-containeer">
       <div className="left-side">
         {data
