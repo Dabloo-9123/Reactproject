@@ -8,8 +8,8 @@ function Header() {
   const [count, setCount] = useState(1);
   return (
     <>
-      <div className='the'>
-      <h1 className='siren'><div className='the1'>The</div><div className='siren1'> Siren</div></h1>
+      <div className='main-navbar'>
+      <div className='siren'><div className='the'>The</div><div className='siren1'> Siren</div></div>
       <div className='humber' onClick={()=>{
        if (count % 2 === 0) {
         setCount(count + 1);
@@ -32,11 +32,10 @@ function Header() {
         </div>
     
         {
-      count === 0?<div className='header'><Linkcompo/></div>:""
+      count === 0?<div className='header'><Linkcompo></Linkcompo></div>:""
     }
       <div className='headerweb'>
-    
-      <Linkcompo></Linkcompo>
+     <Linkcompo></Linkcompo>
       </div>
     
     </>
