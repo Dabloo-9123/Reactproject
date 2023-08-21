@@ -10,16 +10,13 @@
     
 
 }
-/* .head{
-    background-color: yellowgreen;
-} */
+
 .text{
     display: flex;
     justify-content: center;
     font-size: 3vw;
     margin-top: 20px;
     font-weight: bold;
-    /* background-color: yellowgreen; */
     position: sticky;
     top: 10px;
     
@@ -36,8 +33,7 @@
     margin: auto;
     border-bottom: 2px solid gray;
     background-color: yellowgreens;
-    /* position: sticky;
-    top: 0; */
+ 
 }
 .nav_title{
     font-size: 27px;
@@ -54,7 +50,7 @@
     ;
     
   }
-  /*  */
+  
 
 
   .home-super-parent{
@@ -267,24 +263,22 @@ height: 15%;
     box-sizing: border-box;
 }
 .top-post{
-    /* height: 600px; */
-    /* width: 100px; */
+   
     box-sizing: border-box;
     width: 80%;
     margin: auto;
-    /* padding: 28px 15%; */
+  
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
-    /* border: solid 5px green; */
+ 
     margin-top: 100px;
 
 }
 .top-post-card1{
-    /* height: 600px; */
-    /* padding-top: 240px; */
+   
     width: 700px;
-    /* border: solid 5px red; */
+   
 }
 .top-post-details-parent{
 
@@ -293,12 +287,9 @@ height: 15%;
     width: 260px;
     text-align: left;
     height: auto;
-    /* border: solid 6px black; */
+ 
     padding-top: 0px;
-    /* margin-left: 40px; */
-    /* margin-left: -50px; */
-    /* margin-top: 160px; */
-}
+   }
 .top-post-hr{
     width: 40px;
    margin-top: -10px;
@@ -330,11 +321,8 @@ padding-right: 20px;
 }
 .top-posrt-sub-con1{
     display: flex;
-    /* justify-content: space-between; */
     width: 100%;
     box-sizing: border-box;
-    /* border: solid 1px black; */
-    /* height: 100px; */
 }
 
 .top-post-sub1-card1{
@@ -342,9 +330,7 @@ padding-right: 20px;
     width: 100px;
 }
 .top-post-title1{
-    /* text-align: left; */
     
-    /* margin-left: -1px; */
     margin-top: 2px;
 }
 .top-post-titlefood{
@@ -371,7 +357,6 @@ width: 320%;
 }
 .top-post-divider3{
     width: 100%;
-    /* margin-top: -260px; */
 }
 .top-post-divider2{
     /* margin-top: 20px; */

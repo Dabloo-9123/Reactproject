@@ -24,6 +24,8 @@ border-radius: 5px;
 }
 body{
   background-color:rgb(252, 252, 189);
+  /* background-color: lightblue; */
+  /* background-color: lightcyan; */
   
 }
 .parent_nav{
@@ -62,14 +64,14 @@ body{
     flex-direction: column;
     display: flex;
   }
-  .hummenu{
+  .hummenu {
     height: 30px;
     width: 30px;
-    
     position: fixed;
     left: 80%;
     top: 1.5%;
-  }
+    z-index: 5;
+}
   
  .humber{
   display: block;

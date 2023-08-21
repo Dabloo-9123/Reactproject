@@ -1,0 +1,228 @@
+.main_box{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.box1{
+    min-height: 1000px;
+    width: 60%;
+    /* border: solid black 1px; */
+    margin: auto;
+    box-sizing: border-box;
+}
+.box2{
+    min-height: 1000px;
+    width: 30%;
+    /* border: solid black 1px; */
+margin-right: 3%;
+    box-sizing: border-box;
+}
+.head{
+    margin: auto;
+}
+.head_line{
+    width: 10%;
+    border: 3px solid red;
+    margin-left: 1%;
+    
+
+}
+.news_card{
+    margin-top: 3%;
+    
+}
+.nav_link{
+    text-decoration: none;
+}
+.news_box{
+    display: flex;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 2%;
+}
+.img_card{
+    height: 210px;
+    width: 310px;
+    border-radius: 10px;
+    margin-top: 3%;
+   }
+   .head_card{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-left: 2%;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.news_box:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+.travel_details{
+    color: black;
+}
+.travel{
+    color: black;
+}
+.top_post_img1{
+    height: 200px;
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-left: 10%;
+    }
+.top_post{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* margin: auto; */
+}
+.top_post:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+.top_post_data1{
+    display: flex;
+    justify-content: space-between;
+    }
+    .top_post2{
+        width: 100%;
+        /* border: 1px solid black; */
+        height: auto;
+        display: flex;
+        margin-top: 8%;
+        border-radius: 10px;
+        }
+        .top_post_img2{
+            height: 100px;
+            width: 120px;
+            margin-top: 10%;
+    border-radius: 10px;
+        }
+        .top_post_data2{
+            margin-left: 5%;
+        }
+        .top_post2:hover{
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    
+            }
+        .top-post-count{
+            font-size: 32px;
+            margin-right: 3%;
+            text-align: center;
+            opacity: 20%;
+            padding-right: 5%;
+            }
+            .adv{
+                min-height: 40%;
+                width: 80%;
+                border: 1px solid black;
+                background-color: red;
+                margin: auto;
+                margin-top: 20%;
+                font-size: 2vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                animation: anim  2s infinite ;
+                margin-top: 40%;
+            }
+@keyframes anim {
+    10%{
+       background-image: radial-gradient(red,teal,green);
+    }
+    20%{
+        background-color: blueviolet;
+    }
+    30%{
+        background-color: cadetblue;
+    }
+    40%{
+        background-image: radial-gradient(rgb(161, 16, 130),lightblue,rgb(245, 242, 69));
+    }
+    50%{
+        background-color: yellow;
+
+    }
+    60%{
+        background-color: violet;
+    }
+    70%{
+        background-image: radial-gradient(red,white,green);
+    }
+    80%{
+        background-color: thistle;
+    }
+    90%{
+        background-color: springgreen;
+    }
+    100%{
+        background-image: radial-gradient(rgb(39, 31, 31),rgb(71, 25, 145),rgb(164, 167, 164));
+    }
+}
+.BollyFooter {
+    margin-top: 5%;
+    width: 99.5%;
+    /* margin-left: 1px; */
+    background-color: teal;
+    /* margin: auto; */
+  }
+  @media (min-width:270px) and (max-width:580px) {
+
+  .main_box{
+    flex-direction: column;
+  }
+  .head_card{
+    flex-direction: column;
+  }
+  .news_box{
+    flex-direction: column;
+  }
+  .img_card{
+    height: 180px;
+    width: 250px;
+    margin-left: 3%;
+    
+   }
+  .box2{
+    width:95%;
+    margin-top: 15%;
+    margin-left: auto;
+  }
+  .box1{
+    /* margin-top: 25%; */
+    width: 80%;
+    margin-left: 5%;
+  }
+  .adv{
+    display:none;
+  }
+
+}
+
+@media (min-width:580px) and (max-width:1000px) {
+    .main_box{
+        justify-content:center;
+        margin-top: 15%;
+    }
+    .head_card{
+      flex-direction: column;
+    }
+    .news_box{
+      flex-direction: column;
+    }
+    /* .box2{
+      width:95%;
+      margin-top: 15%;
+    } */
+    /* .box1{
+      margin-top: 25%;
+      width: 80%;
+    }
+    .adv{
+      display:none;
+    } */
+  
+  }
+  p{
+    color: black;
+  }

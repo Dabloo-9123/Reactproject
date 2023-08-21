@@ -14,7 +14,7 @@
 
     position: fixed;
     top: 15%;
-
+z-index: 20;
     
   }
 
@@ -33,21 +33,54 @@
     width: 100%;
     justify-content: center;
   }
-  .the{
+  .the1{
     color: red;
     font-size: 7vw;
     font-weight: bolder;
 
   }
+  .header2_main{
+    width: 100%;
+    height: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(252, 252, 189);
+    align-items: center;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0%;
+  }
+  .header2_icon{
+    width: auto;
+    font-size: 5vw;
+  }
+  .get_started{
+    width: auto;
+    background-color:rgb(252, 252, 189);
+    cursor: pointer;
+    border-radius: 5%;
+    font-size: 3vw;
+
+  }
+.rotate{
+  background-color: antiquewhite;
+
+  color: red;
+}
   .siren{
     display: flex;
     width: 100%;
+    height: 130px;
     /* border: solid 1px red; */
     justify-content: center;
     /* background-color: aquamarine; */
   background-color:rgb(252, 252, 189);
 
     position: fixed;
+    top: 0%;
   }
   .siren1{
     font-size: 7vw;
@@ -64,7 +97,7 @@
     height: 500px;
     /* border: solid 1px black; */
     margin: auto;
-    margin-top: 120px;
+    margin-top: 125px;
     display: flex;
     justify-content: space-between}
   .home_top_left{
@@ -110,7 +143,7 @@
   .home_latest{
     width: 80%;
     /* border: solid 1px black; */
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -120,6 +153,7 @@
     /* border: solid 1px black; */
     height: 100%;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     
   }
   .home_latest1 img{
@@ -189,10 +223,11 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    border-radius: 10px;
     font-weight: bold;
     background-color: pink;
     animation-name: anim;
-    animation-duration: 4s;
+    animation-duration: 10s;
   }
   .latest_left1{
   width: 100%;
@@ -214,8 +249,27 @@
     30%{
       background-color: teal;
     }
-    100%{
+    40%{
       background-color: brown;
+    }
+    50%{
+      background-color: teal;
+    }
+    60%{
+      background-color: lightcoral;
+    }
+    70%{
+      background-color: lightslategray;
+    }
+    80%{
+      background-color: lightpink;
+    }
+    90%{
+      background-color: black;
+      color: white;
+    }
+    100%{
+      background-color: aliceblue;
     }
     
   }
@@ -245,6 +299,7 @@
   .the-latest-loadmore-bottom{
     width: 100%;
     height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     /* border: solid 1px red; */
     /* margin-top: 50px; */
   }
@@ -266,10 +321,15 @@
     width: 100%;
     min-height: 40%;
     /* border: solid 1px black; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   }
   .top-post1st-big img{
     width: 100%;
     height: 70%;
+  }
+  hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .top-post1st-big h3{
     text-overflow:ellipsis;
@@ -295,7 +355,7 @@
     display: flex;
     /* padding: 10px; */
     box-sizing: border-box;
-
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     /* flex-direction: column; */
     /* justify-content: space-between; */
   }
@@ -336,6 +396,8 @@
     display: flex;
     /* justify-content:spac ; */
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 5px;
   }
   .latest_story_parent .latest_story_child p{
     text-overflow:ellipsis;
@@ -344,6 +406,7 @@
     -webkit-line-clamp: 4;
     line-clamp: 4;
     -webkit-box-orient: vertical;
+    margin-top: 5px;
   }
   .viewmore{
     margin-left: 10%;
@@ -379,9 +442,10 @@
     .siren{
         justify-content: left;
         padding-left: 5%;
+        height: 70px;
     }
     .navbar{
-      top: 5%;
+      top: 4.5%;
     }
    
    
@@ -527,7 +591,7 @@
       font-size: 3vw;
 }
 .navbar{
-  top: 6%;
+  top: 5%;
 }
 .home_top_main {
   margin-top: 100px;

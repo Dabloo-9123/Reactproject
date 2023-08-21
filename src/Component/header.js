@@ -9,7 +9,7 @@ function Header() {
   return (
     <>
       <div className='main-navbar'>
-      <div className='siren'><div className='the'>The</div><div className='siren1'> Siren</div></div>
+      <div className='siren'><div className='the1'>The</div><div className='siren1'> Siren</div></div>
       <div className='humber' onClick={()=>{
        if (count % 2 === 0) {
         setCount(count + 1);
