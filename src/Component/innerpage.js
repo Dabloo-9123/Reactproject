@@ -8,8 +8,9 @@ import Fixed from './Fixed';
 import SmallCard from './SmallCard';
 import Writer from './Writer';
 import clapping from "../logo/clapping.jpg";
-import persion from "../logo/man.jpg";
+import persion from "../logo/man.png";
 import Header2 from './header2';
+import Footer from './Footer';
 // import Header from './header';
 
 
@@ -160,8 +161,8 @@ function Innerpage() {
                                </div>
                                <div className="smallcard-userdata write-data hides">
                                  {/* <div></div> */}
-                                 <div className="h5 hides">Vimal kumar</div>
-                                 <div className="hides">14 August 2023</div>
+                                 <div className="h5 hides">Dabloo kumar</div>
+                                 <div className="hides">August 2023</div>
                                </div>
                              </div>
                            </div>
@@ -178,6 +179,9 @@ function Innerpage() {
          <button onClick={navigation} className="goBack">
           Go Back
         </button>
+        <div className='footer-mine'>
+      <Footer></Footer>
+ </div>
     </div>
   )
 }

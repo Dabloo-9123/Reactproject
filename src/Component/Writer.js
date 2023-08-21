@@ -2,7 +2,7 @@ import React from 'react'
 import persion from "../logo/man.png"
 const Writer = () => {
   return (
-    <div className='smallCard-containeer'>
+    <div className='smallCard-containeer1'>
     <div className='smallcard-parent'>
      <div>
      <div className='smallcard-persion-img bg' style={{backgroundImage:`url(${persion})`}}>

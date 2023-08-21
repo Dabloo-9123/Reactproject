@@ -129,7 +129,7 @@ footerLogo {
     margin-left: 30px;
   }
   .question {
-    /* width: 200px; */
+    width: auto;
     background-color: bisque;
     /* height: 40px; */
     color: black;
@@ -186,5 +186,8 @@ footerLogo {
         .blo-des{
 box-sizing: border-box;
 padding: 5px;
+        }
+        .question{
+            width: 50%;
         }
     }
