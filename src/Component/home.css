@@ -49,9 +49,10 @@ z-index: 20;
     justify-content: space-between;
     background-color:rgb(252, 252, 189);
     align-items: center;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     position: fixed;
     top: 0%;
+    z-index: 5;
   }
   .header2_icon{
     width: auto;
@@ -66,7 +67,9 @@ z-index: 20;
 
   }
 .rotate{
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-color:rgb(252, 252, 189);
+
 
   color: red;
 }

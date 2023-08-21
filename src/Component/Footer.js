@@ -1,7 +1,7 @@
-import facebook from "../logo/facebook.jpg"
-import intagram from "../logo/instagram.jpg"
-import twitter from "../logo/twitter.jpg"
-import youtube from "../logo/youtube.jpg"
+// import facebook from "../logo/facebook.jpg"
+// import intagram from "../logo/instagram.jpg"
+// import twitter from "../logo/twitter.jpg"
+// import youtube from "../logo/youtube.jpg"
 import './Footer.css'
 import { useNavigate } from 'react-router-dom'
 
@@ -16,12 +16,12 @@ function Footer() {
                 <span className='blo-des'>This  is a simple blog app made by Dabloo kumar Yadav
                     in this blog app the latest information about today's generation.
                 </span>
-                <div className='displayFt'>
+                {/* <div className='displayFt'>
                     <img className='footerLogo' alt='not found' src={facebook} height={50} width={50} />
                     <img className='footerLogo' alt='not found' src={intagram} height={50} width={50} />
                     <img className='footerLogo' alt='not found' src={twitter} height={50} width={50} />
                     <img className='footerLogo' alt='not found' src={youtube} height={50} width={50} />
-                </div>
+                </div> */}
             </div>
             <div>
                 <h2 className='about1'>Usefull Links</h2>

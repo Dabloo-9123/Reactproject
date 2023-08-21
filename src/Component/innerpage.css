@@ -134,10 +134,11 @@ display: inline-block;
 .fixed-parent {
   height: auto;
   width: 180px;
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   top: 60vh;
   /* position: relative; */
-  z-index: -500;
+  /* z-index: -500; */
   background-color:rgb(252, 252, 189);
   /* background-color: red; */
   align-items: center;
