@@ -58,7 +58,7 @@ margin-right: 3%;
     flex-direction: column;
     box-sizing: border-box;
 }
-.news_box:hover{
+.news_bo{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
 .travel_details{
     color: black;
@@ -78,7 +78,7 @@ margin-right: 3%;
     border-radius: 10px;
     /* margin: auto; */
 }
-.top_post:hover{
+.top_post{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
 .top_post_data1{
     display: flex;
@@ -101,7 +101,7 @@ margin-right: 3%;
         .top_post_data2{
             margin-left: 5%;
         }
-        .top_post2:hover{
+        .top_post2{
             box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    
             }
         .top-post-count{
@@ -173,13 +173,15 @@ margin-right: 3%;
   }
   .head_card{
     flex-direction: column;
+    width: 95%;
   }
   .news_box{
     flex-direction: column;
+    width: 100%;
   }
   .img_card{
     height: 180px;
-    width: 250px;
+    width: 95%;
     margin-left: 3%;
     
    }
@@ -190,8 +192,8 @@ margin-right: 3%;
   }
   .box1{
     /* margin-top: 25%; */
-    width: 80%;
-    margin-left: 5%;
+    width: 90%;
+    /* margin-left: 5%; */
   }
   .adv{
     display:none;
