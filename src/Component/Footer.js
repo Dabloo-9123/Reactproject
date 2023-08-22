@@ -45,16 +45,7 @@ function Footer() {
                 <span className='links1'>Graphic Design</span>
 
                 <span className='links1'>Web Design</span>
-            </div> <div>
-                <h2 className='about1'> Contact:- </h2>
-                <hr className='footerHr1' />
-                <span>Dabloo Kumar Yadav</span>
-
-                <span>Your Querys or Questions</span>
-
-                <input type='text' placeholder='Write here' className='question' />
-                <button className='qsend'>Send</button>
-            </div>
+            </div> 
         </div>
     </div>
   )
