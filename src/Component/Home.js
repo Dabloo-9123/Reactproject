@@ -91,7 +91,7 @@ function Home() {
 </div>
 <div className="home_latest1">
 {
-    data.filter((item)=>item.id===99).map((data)=>{
+    data.filter((item)=>item.id===59).map((data)=>{
         return(
             <>
             {
@@ -181,7 +181,7 @@ function Home() {
     <div className='top-post1st-big'>
         <h3>Top Post</h3>
         {
-    data.filter((item)=>item.id===89).map((data)=>{
+    data.filter((item)=>item.id===52).map((data)=>{
         return(
             <>
             {
@@ -200,7 +200,7 @@ function Home() {
     <div className='top-post2nd-smalls'>
         
         {
-    data.filter((item)=>item.id===79).map((data)=>{
+    data.filter((item)=>item.id===29).map((data)=>{
         return(
             <>
             {

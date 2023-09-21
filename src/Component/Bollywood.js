@@ -19,7 +19,7 @@ function Bollywood() {
         <hr className="head_line"/>
         <div className="news_card">
         {data
-                  .filter((item) => item.cat === "bolloywood")
+                  .filter((item) => item.cat === "bollywood")
                   .map((data) => {
                     return (
                       <>
@@ -41,7 +41,7 @@ function Bollywood() {
                                 <span className="travel">
                                   Travel
                                   <span className="travel_details">
-                                    /August 21 2023
+                                  /September 15 2023
                                   </span>{" "}
                                 </span>
 
@@ -83,7 +83,7 @@ function Bollywood() {
                                   <h4>
                                     Travel{" "}
                                     <span className="travel_details">
-                                      /August 21 2023
+                                    /September 15 2023
                                     </span>{" "}
                                   </h4>
                                   </div>
@@ -120,7 +120,7 @@ function Bollywood() {
                             <div className="travel">
                             <h6>
                               Travel{" "}
-                              <span className="travel_details">/August 21 2023</span>{" "}
+                              <span className="travel_details">/September 15 2023</span>{" "}
                             </h6>
                             </div>
                           </div>
@@ -133,7 +133,7 @@ function Bollywood() {
                 );
               })}
               {data
-              .filter((item) => item.id === 15)
+              .filter((item) => item.id === 14)
               .map((data) => {
                 return (
                   <>

@@ -40,7 +40,7 @@ function Food() {
                                 <span className="travel">
                                   Travel
                                   <span className="travel_details">
-                                    /August 21 2023
+                                  /September 15 2023
                                   </span>{" "}
                                 </span>
 
@@ -60,7 +60,7 @@ function Food() {
       <h1 className="head">Top Posts</h1>
         <hr className="head_line"/>
         {data
-                .filter((item) => item.id === 10)
+                .filter((item) => item.id === 35)
                 .map((data) => {
 
                   return (
@@ -82,7 +82,7 @@ function Food() {
                                   <h4>
                                     Travel{" "}
                                     <span className="travel_details">
-                                      /August 21 2023
+                                    /September 15 2023
                                     </span>{" "}
                                   </h4>
                                   </div>
@@ -100,7 +100,7 @@ function Food() {
                   );
                 })}
                  {data
-              .filter((item) => item.id === 9)
+              .filter((item) => item.id === 36)
               .map((data) => {
                 return (
                   <>
@@ -119,7 +119,7 @@ function Food() {
                             <div className="travel">
                             <h6>
                               Travel{" "}
-                              <span className="travel_details">/August 21 2023</span>{" "}
+                              <span className="travel_details">/September 15 2023</span>{" "}
                             </h6>
                             </div>
                           </div>
@@ -132,7 +132,7 @@ function Food() {
                 );
               })}
               {data
-              .filter((item) => item.id === 15)
+              .filter((item) => item.id === 37)
               .map((data) => {
                 return (
                   <>
@@ -151,7 +151,7 @@ function Food() {
                             <div className="travel">
                             <h6>
                               Travel{" "}
-                              <span className="travel_details">/August 21 2023</span>{" "}
+                              <span className="travel_details">/September 15 2023</span>{" "}
                             </h6>
                             </div>
                           </div>
@@ -164,7 +164,7 @@ function Food() {
                 );
               })}
               {data
-              .filter((item) => item.id === 7)
+              .filter((item) => item.id === 38)
               .map((data) => {
                 return (
                   <>
@@ -183,7 +183,7 @@ function Food() {
                             <div className="travel">
                             <h6>
                               Travel{" "}
-                              <span className="travel_details">/August 21 2023</span>{" "}
+                              <span className="travel_details">/September 15 2023</span>{" "}
                             </h6>
                             </div>
                           </div>
