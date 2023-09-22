@@ -25,21 +25,21 @@ function Innerpage() {
   // const [min, setMin] = useState(1)
   let min1 = 1;
   console.log(orid);
-  if (url1 < 7) {
+  if (url1 < 16) {
     // setMin(1);
-    min1 = 1;
-  } else if (url1 > 6 && url1 < 13) {
+    min1 = 8;
+  } else if (url1 >= 16 && url1 <= 30) {
     // setMin(6);
-    min1 = 7;
-  } else if (url1 > 13 && url1 < 23) {
+    min1 = 21;
+  } else if (url1 >= 31 && url1 <= 45) {
     // setMin(11);
-    min1 = 13;
-  } else if (url1 > 22 && url1 < 29) {
+    min1 = 37;
+  } else if (url1 >=46 && url1 <= 62) {
     // setMin(21);
-    min1 = 23;
+    min1 = 50;
   } else {
     // setMin(28);
-    min1 = 30;
+    min1 = 70;
   }
   let max = min1 + 2;
 
