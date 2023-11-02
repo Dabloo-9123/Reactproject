@@ -1,14 +1,28 @@
-import React, { useContext } from 'react'
-import { info } from '../App'
+import React, { useState,useEffect } from 'react'
+// import { info } from '../App'
 import { NavLink } from 'react-router-dom'
 import './style.css'
 import './bolly.css'
 // import Footer from './Footer'
 import Header from './header'
 import Footer from './Footer'
+import axios from 'axios'
 
 function Food() {
-  const data=useContext(info)
+  const [data, setDetails] = useState("")
+  console.log(data);
+
+  useEffect(() => {
+    axios.get('https://react-blog-backend-ua2p.onrender.com/data')
+      .then(response => response.data)
+      .then(store => {
+        console.log(store, "bihari bubu")
+        setDetails(store)
+
+      }
+      )
+  }, [])
+  console.log(data);
   return (
     <>
     <Header></Header>
@@ -17,8 +31,7 @@ function Food() {
         <h1 className="head">Food</h1>
         <hr className="head_line"/>
         <div className="news_card">
-        {data
-                  .filter((item) => item.cat === "food")
+        {data && data.filter((item) => item.cat === "food")
                   .map((data) => {
                     return (
                       <>
@@ -59,8 +72,7 @@ function Food() {
       <div className="box2">
       <h1 className="head">Top Posts</h1>
         <hr className="head_line"/>
-        {data
-                .filter((item) => item.id === 35)
+        {data && data.filter((item) => item.id === 35)
                 .map((data) => {
 
                   return (
@@ -99,8 +111,7 @@ function Food() {
                     </>
                   );
                 })}
-                 {data
-              .filter((item) => item.id === 36)
+                 {data && data.filter((item) => item.id === 36)
               .map((data) => {
                 return (
                   <>
@@ -131,8 +142,7 @@ function Food() {
                   </>
                 );
               })}
-              {data
-              .filter((item) => item.id === 37)
+              {data && data.filter((item) => item.id === 37)
               .map((data) => {
                 return (
                   <>
@@ -163,8 +173,7 @@ function Food() {
                   </>
                 );
               })}
-              {data
-              .filter((item) => item.id === 38)
+              {data && data.filter((item) => item.id === 38)
               .map((data) => {
                 return (
                   <>

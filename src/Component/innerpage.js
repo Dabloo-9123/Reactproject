@@ -1,9 +1,9 @@
-import React ,{useState}from 'react'
-import { useContext } from "react";
+import React ,{useState,useEffect}from 'react'
+// import { useContext } from "react";
 // import Footer from './Footer';
 import './innerpage.css'
 import { NavLink, useNavigate } from "react-router-dom";
-import {  info } from '../App';
+// import {  info } from '../App';
 import Fixed from './Fixed';
 import SmallCard from './SmallCard';
 import Writer from './Writer';
@@ -11,11 +11,25 @@ import clapping from "../logo/clapping.jpg";
 import persion from "../logo/man.png";
 import Header2 from './header2';
 import Footer from './Footer';
+import axios from 'axios';
 // import Header from './header';
 
 
 function Innerpage() {
-  const data=useContext(info)
+  const [data, setDetails] = useState("")
+  console.log(data);
+
+  useEffect(() => {
+    axios.get('https://react-blog-backend-ua2p.onrender.com/data')
+      .then(response => response.data)
+      .then(store => {
+        console.log(store, "bihari bubu")
+        setDetails(store)
+
+      }
+      )
+  }, [])
+  console.log(data);
   console.log(data);
   const navi = useNavigate();
   const url = window.location.href;
@@ -61,8 +75,7 @@ function Innerpage() {
       {/* <Header></Header> */}
       <Header2></Header2>
       <div className="details-parent">
-         {data
-           .filter((item) => item.id === url1)
+         {data && data.filter((item) => item.id === url1)
            .map((data) => {
              return (
                <>
@@ -115,8 +128,7 @@ function Innerpage() {
 
            <div className="more-parent">
              <div className="more-one">
-               {data
-                 .filter((item) => item.id >= min1 && item.id <= max)
+               {data && data.filter((item) => item.id >= min1 && item.id <= max)
                 .map((data) => {
                    return (
                      <>

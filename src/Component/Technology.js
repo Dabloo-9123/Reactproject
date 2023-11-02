@@ -1,13 +1,27 @@
-import React, { useContext } from 'react'
-import { info } from '../App'
+import React, { useState,useEffect } from 'react'
+// import { info } from '../App'
 import { NavLink } from 'react-router-dom'
 import './style.css'
 // import Footer from './Footer'
 import './bolly.css'
 import Header from './header'
 import Footer from './Footer'
+import axios from 'axios'
 function Technology() {
-    const data = useContext(info)
+  const [data, setDetails] = useState("")
+  console.log(data);
+
+  useEffect(() => {
+    axios.get('https://react-blog-backend-ua2p.onrender.com/data')
+      .then(response => response.data)
+      .then(store => {
+        console.log(store, "bihari bubu")
+        setDetails(store)
+
+      }
+      )
+  }, [])
+  console.log(data);
 
   return (
     <>
@@ -17,8 +31,7 @@ function Technology() {
         <h1 className="head">Technology</h1>
         <hr className="head_line"/>
         <div className="news_card">
-        {data
-                  .filter((item) => item.cat === "technology")
+        {data && data.filter((item) => item.cat === "technology")
                   .map((data) => {
                     return (
                       <>
@@ -59,8 +72,7 @@ function Technology() {
       <div className="box2">
       <h1 className="head">Top Posts</h1>
         <hr className="head_line"/>
-        {data
-                .filter((item) => item.id === 50)
+        {data && data.filter((item) => item.id === 50)
                 .map((data) => {
 
                   return (
@@ -99,8 +111,7 @@ function Technology() {
                     </>
                   );
                 })}
-                 {data
-              .filter((item) => item.id === 52)
+                 {data && data.filter((item) => item.id === 52)
               .map((data) => {
                 return (
                   <>
@@ -131,8 +142,7 @@ function Technology() {
                   </>
                 );
               })}
-              {data
-              .filter((item) => item.id === 54)
+              {data && data.filter((item) => item.id === 54)
               .map((data) => {
                 return (
                   <>
@@ -163,8 +173,7 @@ function Technology() {
                   </>
                 );
               })}
-              {data
-              .filter((item) => item.id === 56)
+              {data && data.filter((item) => item.id === 56)
               .map((data) => {
                 return (
                   <>

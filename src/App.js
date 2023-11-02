@@ -7,17 +7,17 @@ import Technology from './Component/Technology';
 import Fitness from './Component/Fitness';
 import Food from './Component/Food';
 // import Linkcompo from './Component/Linkcompo';
-import { createContext } from 'react';
-import Data from './Component/Store';
+// import { createContext } from 'react';
+// import Data from './Component/Store';
 import Innerpage from './Component/innerpage';
 // import Header from './Component/header';
 // import LinkComponent2 from './Component/LinkComponent2';
 
-export const info=createContext(Data)
+// export const info=createContext(Data)
 function App() {
   return (
   <>
-<info.Provider value={Data}>
+{/* <info.Provider value={Data}> */}
   {/* <Header></Header> */}
    <BrowserRouter >
    {/* <Linkcompo></Linkcompo> */}
@@ -33,7 +33,7 @@ function App() {
    </Routes>
    
    </BrowserRouter>
-   </info.Provider>
+   {/* </info.Provider> */}
   </>
   );
 }
